@@ -1,0 +1,132 @@
+/*--- open elements-------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgb(8, 97, 162);
+}
+
+h3 {
+  font-family: 'PT Sans Caption', sans-serif;
+  color: rgb(8, 97, 162)
+}
+
+html, body {
+  height: 100%;
+}
+
+nav {
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(37, 213, 238);
+}
+
+img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10%;
+  box-shadow: 5px 10px 10px rgb(41, 40, 45);
+}
+
+/* ---Classe's ----------------------------------------------------------*/
+
+.header-text {
+  font-size: 2.5em;
+  margin-left: 200px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  text-shadow: 2px 2px rgb(8, 97, 162);
+}
+
+.main-nav li {
+  list-style-type: none;
+  rgb(132, 126, 133) background-color: rgb(255, 255, 255);
+  float: left;
+  margin-left: 200px;
+  padding: 0;
+}
+
+.fact-list {
+  padding: 20px 10px;
+  text-align: left;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+
+.fact-list li {
+  padding-top: 10px;
+}
+
+.content {
+  padding: 20px 10px;
+  border: 20px solid rgb(8, 97, 162);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.main-forum {
+  border-radius: 10%;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.main-forum label{
+ text-align: left;
+}
+
+.no-order a {
+  color: rgb(8, 97, 162);
+}
+
+/* ---Idea's  ------------------------------------------------------------*/
+
+#main-header {
+  background-color: rgb(54, 52, 48);
+  height: 90px;
+}
+
+#container {
+  min-height: 100%;
+  background-color: rgb(217, 217, 217);
+}
+
+#main {
+  padding: 20px 10px;
+  border: 20px solid rgb(8, 97, 162);
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  background-color: white;
+}
+
+#main-footer {
+  position: relative;
+  height: 90px;
+  background-color: rgb(54, 52, 48);
+  clear: both;
+}
+
+/* ---Media Query ----------------------------------------------------------*/
+
+@media (max-width: 900px) {
+    #container {
+      background-color: rgb(69, 64, 167);
+    }
+}
